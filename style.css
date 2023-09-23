@@ -9,7 +9,24 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+	background-attachment: fixed;
 }
+
+::-webkit-scrollbar{
+	width: 7.5px;
+	background: black;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #646464;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #fbfafa;
+}
+
+
 
 
 
