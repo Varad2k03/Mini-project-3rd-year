@@ -34,7 +34,6 @@
     background-color: rgba(99, 99, 99, 0);
     padding: 10px;
     border-radius: 30px;
-    /* box-shadow: 1px 1px 5px white; */
     border: 1px solid white;
 }
 
@@ -48,4 +47,8 @@
     width: 50%;
     height: 90%;
 
+}
+
+.hero .left p span{
+   color: black;
 }
